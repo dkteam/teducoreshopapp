@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeduCoreShopApp.Data\TeduCoreShopApp.Data.csproj" />
+    <ProjectReference Include="..\TeduCoreShopApp.Infrastructure\TeduCoreShopApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\TeduCoreShopApp.Utilities\TeduCoreShopApp.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

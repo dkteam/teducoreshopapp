@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduCoreShopApp", "TeduCoreShopApp\TeduCoreShopApp.csproj", "{F10E58D0-2A24-4B32-BC07-79706089D2FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeduCoreShopApp", "TeduCoreShopApp\TeduCoreShopApp.csproj", "{F10E58D0-2A24-4B32-BC07-79706089D2FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduCoreShopApp.Infrastructure", "TeduCoreShopApp.Infrastructure\TeduCoreShopApp.Infrastructure.csproj", "{767C72A1-10C5-41AF-ABAF-8ECE55E3CFAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduCoreShopApp.Utilities", "TeduCoreShopApp.Utilities\TeduCoreShopApp.Utilities.csproj", "{095D3715-D413-4997-8188-EEA84B37000F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduCoreShopApp.Data", "TeduCoreShopApp.Data\TeduCoreShopApp.Data.csproj", "{2F5DE509-DA8A-4730-ABCC-ABA9E2A417DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduCoreShopApp.Data.EF", "TeduCoreShopApp.Data.EF\TeduCoreShopApp.Data.EF.csproj", "{65954145-84D9-4887-A707-31B30ABED236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduCoreShopApp.Application", "TeduCoreShopApp.Application\TeduCoreShopApp.Application.csproj", "{900BBCC6-7831-487D-9747-DF89E1D3BC91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{E1BC749A-C2E0-4E5D-95B8-D60C3CE8A3DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{D8B8A278-9FE4-402D-85C6-7D2AAD6B20A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{E6677F39-5EC6-40F2-A526-A88ECEA668F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastucture", "4 - Infrastucture", "{AB8813F4-6740-4F4E-9AC0-D968B4789000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +33,37 @@ Global
 		{F10E58D0-2A24-4B32-BC07-79706089D2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F10E58D0-2A24-4B32-BC07-79706089D2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F10E58D0-2A24-4B32-BC07-79706089D2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767C72A1-10C5-41AF-ABAF-8ECE55E3CFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767C72A1-10C5-41AF-ABAF-8ECE55E3CFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767C72A1-10C5-41AF-ABAF-8ECE55E3CFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767C72A1-10C5-41AF-ABAF-8ECE55E3CFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095D3715-D413-4997-8188-EEA84B37000F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095D3715-D413-4997-8188-EEA84B37000F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095D3715-D413-4997-8188-EEA84B37000F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095D3715-D413-4997-8188-EEA84B37000F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5DE509-DA8A-4730-ABCC-ABA9E2A417DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5DE509-DA8A-4730-ABCC-ABA9E2A417DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5DE509-DA8A-4730-ABCC-ABA9E2A417DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5DE509-DA8A-4730-ABCC-ABA9E2A417DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65954145-84D9-4887-A707-31B30ABED236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65954145-84D9-4887-A707-31B30ABED236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65954145-84D9-4887-A707-31B30ABED236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65954145-84D9-4887-A707-31B30ABED236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900BBCC6-7831-487D-9747-DF89E1D3BC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900BBCC6-7831-487D-9747-DF89E1D3BC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900BBCC6-7831-487D-9747-DF89E1D3BC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900BBCC6-7831-487D-9747-DF89E1D3BC91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F10E58D0-2A24-4B32-BC07-79706089D2FA} = {E1BC749A-C2E0-4E5D-95B8-D60C3CE8A3DF}
+		{767C72A1-10C5-41AF-ABAF-8ECE55E3CFAF} = {AB8813F4-6740-4F4E-9AC0-D968B4789000}
+		{095D3715-D413-4997-8188-EEA84B37000F} = {AB8813F4-6740-4F4E-9AC0-D968B4789000}
+		{2F5DE509-DA8A-4730-ABCC-ABA9E2A417DE} = {E6677F39-5EC6-40F2-A526-A88ECEA668F1}
+		{65954145-84D9-4887-A707-31B30ABED236} = {E6677F39-5EC6-40F2-A526-A88ECEA668F1}
+		{900BBCC6-7831-487D-9747-DF89E1D3BC91} = {D8B8A278-9FE4-402D-85C6-7D2AAD6B20A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D602D1A8-663A-4E45-8032-AE80A9DDD87E}
